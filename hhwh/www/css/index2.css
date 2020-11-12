@@ -1,0 +1,160 @@
+* {
+    padding:0;
+    margin:0;
+}
+body {
+    background: url(../images/bg2.png);
+    background-size: 100% ;
+	background-repeat: no-repeat ;
+	overflow-x: hidden;
+	width: auto;
+	height: auto;
+}
+.start{
+	margin-top: 10%;
+	width: 10vw;
+}
+.p{
+	font-size: 10px;
+}
+.vd {
+	border-radius: 30px;
+	height:53vw;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	margin-left: 0.1vw;
+	flex-direction: column;
+	justify-content: center;
+}
+.button1{
+	text-align: center;
+	margin-top: -10px;
+}
+.box{
+	width: 100%;
+	align-items: center;
+}
+.vdall{
+	float: left;
+	margin-left: 9%;
+}
+
+.vd1{
+	width: 100%;
+	height: auto;
+	margin-top: 12%;
+}
+.vd1_1{	
+	background: url(../images/vd1_1.png) center;
+	width: 35vw;
+	height: 18vw;
+	margin-left: 10%;
+	border-radius:25px;	
+	text-align: center;
+}
+.name1_1{
+    width: 35vw;
+    height: 18vw;
+    margin-left: 10%;
+    border-radius:25px;	
+	text-align: center;
+}
+.vd1_2{
+	background: url(../images/vd1_2.png) center;
+	width: 35vw;
+	height: 18vw;
+	margin-left: 10%;
+	border-radius:25px;
+	float: right;
+	text-align: center;
+}
+.name1_2{
+	width: 35vw;
+	height: 18vw;
+	border-radius:25px;	
+	text-align: center;
+}
+
+
+.vd2{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: -130px;
+}
+.vd2_1{	
+	background: url(../images/vd2_1.png) center;
+	width: 35vw;
+	height: 18vw;
+	margin-left: 10%;
+	border-radius:25px;	
+	text-align: center;
+}
+.name2_1{
+    width: 35vw;
+    height: 18vw;
+    margin-left: 10%;
+    border-radius:25px;	
+	text-align: center;
+}
+.vd2_2{
+	background: url(../images/vd2_2.png) center;
+	width: 35vw;
+	height: 18vw;
+	margin-left: 10%;
+	border-radius:25px;
+	float: right;
+	text-align: center;
+}
+.name2_2{
+	width: 35vw;
+	height: 18vw;
+	border-radius:25px;	
+	text-align: center;
+}
+
+
+.vd3{
+	top: 120vw;
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: -130px;
+	
+}
+.vd3_1{	
+	background: url(../images/vd3_1.png) center;
+	width: 35vw;
+	height: 18vw;
+	margin-left: 10%;
+	border-radius:25px;	
+	text-align: center;
+}
+.name3_1{
+    width: 35vw;
+    height: 18vw;
+    margin-left: 10%;
+    border-radius:25px;	
+	text-align: center;
+}
+.vd3_2{
+	background: url(../images/vd3_2.png) center;
+	width: 35vw;
+	height: 18vw;
+	margin-left: 10%;
+	border-radius:25px;
+	float: right;
+	text-align: center;
+}
+.name3_2{
+	width: 35vw;
+	height: 18vw;
+	margin-left: 10%;
+	border-radius:25px;	
+	text-align: center;
+}
+
+.footer{
+	height: 1000px;
+}

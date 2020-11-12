@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/pay.css">
+
+
+		<script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="scripts/pay.js"></script>
+		<script type="text/javascript" src="scripts/jquery.js"></script>
+
+		<script type="text/javascript" src="scripts/jquery.min.js"></script>
+		<script type="text/javascript" src="scripts/amazeui.min.js"></script>
+		<script type="text/javascript" src="scripts/ui-choose.js"></script>
+ 
+<script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://gw.alipayobjects.com/as/g/h5-lib/alipayjsapi/3.1.1/alipayjsapi.min.js"></script> 
+		<title>悠优宝贝</title>
+	</head>
+	<style type="text/css">
+	#cxg{
+	
+		z-index: 3;
+		background: transparent url(images/hahaha.png) no-repeat right bottom;
+		background-size:100% ;
+	}
+	#cxg.boxclass{
+		 border: 1px solid #febe08;
+		z-index: 3;
+		background: transparent url(images/hahaha.png) no-repeat right bottom !important;
+		background-size:100% ;
+	}
+	</style>
+	<body>
+		<div class="mian">
+			<div class="PhoneNumber"id="ks" >
+			
+		</div>
+			<div class="vippay">
+
+<form action="" class="am-form" id="doc-vld-msg">
+					<div class="tr_rechbox">
+						<div class="tr_rechli am-form-group">
+							<ul class="ui-choose am-form-group" id="uc_01">
+								<li  id="cxg" onclick="gb()" class="bj">
+									<label class="am-radio-inline1">
+										<div class="aui-flex-time">
+											<h1 class="ti1" id="lxby">1个月</h1>
+										</div>
+
+										<div class="aui-flex-box">
+											<h2 class="cx1">30天畅享</h2>
+											<!-- <div>
+												<h2 class="yj1"><s>原价4p10元</s></h2>
+											</div> -->
+										</div>
+										<div class="aui-flex-tag">
+											<h2 class="jg1" id="lxbyjg">30元</h2>
+										</div>
+									</label>
+								</li>
+								<li>
+									<div class="tuijian1">
+										<img src="./images/tuijian.png" />
+									</div>
+									<label class="am-radio-inline2">
+										<div class="aui-flex-time">
+											<h1 class="ti1">3个月</h1>
+										</div>
+										<div class="aui-flex-box">
+											<h2 class="cx1">折合每月仅需24元</h2>
+											<div>
+												<h2 class="yj1"><s>原价90元</s></h2>
+											</div>
+										</div>
+										<div class="aui-flex-tag">
+											<h2 class="jg1">72元</h2>
+										</div>
+									</label>
+								</li>
+
+								<li>
+									<div class="tuijian1">
+										<img src="./images/tuijian.png" />
+									</div>
+									<label class="am-radio-inline3">
+										<div class="aui-flex-time">
+											<h1 class="ti1">1年</h1>
+										</div>
+
+										<div class="aui-flex-box">
+											<h2 class="cx1">超值每天仅需0.3元，畅享海量正版优质内容</h2>
+											<div>
+												<h2 class="yj1"><s>原价360元</s></h2>
+											</div>
+										</div>
+										<div class="aui-flex-tag">
+											<h2 class="jg1">198元</h2>
+										</div>
+									</label>
+								</li>
+
+								<!-- <li>
+									<div class="tuijian1">
+										<img src="./images/tuijian.png" />
+									</div>
+									<label class="am-radio-inline4">
+										<div class="aui-flex-time">
+											<h1 class="ti1">连续包年</h1>
+										</div>
+
+										<div class="aui-flex-box">
+											<h2 class="cx1">超值每天仅需0.7元，畅享海量正版优质内容</h2>
+											<div>
+												<h2 class="yj1"><s>原价480元</s></h2>
+											</div>
+										</div>
+										<div class="aui-flex-tag">
+											<h2 class="jg1">264元</h2>
+										</div>
+									</label>
+								</li> -->
+							</ul>
+						<!-- 	<div class="zhekou">
+								<img src="./images/55折.png" />
+							</div>
+							<div class="zhekou2">
+								<img src="./images/8折.png" />
+							</div> -->
+						</div>
+
+						<div class="tr_rechnum">
+							<p id="p2" class="rechnum">0.00元</p>
+							<a class="zfym" href="#">
+								<div class="button3"></div>
+							</a>
+						</div>
+					</div>
+				</form>
+
+
+			</div>
+
+			<div class="button">
+				<a href="#"><img src="images/Try the button.png" class="Try_the_button" width="250vw"></a>
+			</div>
+
+<!-- 
+			<div class="button1">
+				<img src="images/button4.png" width="158vw" />
+			</div>
+			<div class="button2">
+				<img src="images/button5.png" width="210vw" />
+			</div>
+
+			<div class="yhfwxy" style="display: none;">
+				<img class="know" src="images/but6.png" />
+			</div>
+			<div class="zdxffwxy" style="display: none;">
+				<img class="know2" src="images/but6.png" />
+			</div> -->
+
+		</div>
+		
+	</body>
+
+	<script type="text/javascript">
+		/*协议弹窗*/
+		$(document).ready(function() {
+			$(".button1").click(function() {
+				$(".yhfwxy").toggle("slow");
+			});
+		});
+		$(document).ready(function() {
+			$(".button2").click(function() {
+				$(".zdxffwxy").toggle("slow");
+			});
+		});
+		$(document).ready(function() {
+			$(".know").click(function() {
+				$(".yhfwxy").toggle("none");
+			});
+		});
+		$(document).ready(function() {
+			$(".know2").click(function() {
+				$(".zdxffwxy").toggle("none");
+			});
+		});
+	</script>
+
+	<script type="text/javascript">/*输出金额*/
+		// 将所有.ui-choose实例化
+		$('.ui-choose').ui_choose();
+		// uc_01 ul 单选
+		var uc_01 = $('#uc_01').data('ui-choose'); // 取回已实例化的对象
+		uc_01.click = function(index, item) {
+
+		}
+		uc_01.change = function(index, item) {
+			
+		}
+		$(function() {
+			$('#uc_01 li:eq(4)').click(function() {
+document.getElementById('cxg').style.background="#fff";
+				$('.tr_rechoth').show();
+				$('.tr_rechoth').find("input").attr('required', 'true')
+				$('.rechnum').text('30.00');
+			})
+			$('#uc_01 li:eq(0)').click(function() {
+				$('.tr_rechoth').hide();
+				$('.rechnum').text('30.00');
+				$('.othbox').val('');
+			})
+			$('#uc_01 li:eq(1)').click(function() {
+document.getElementById('cxg').style.background="#fff";
+				$('.tr_rechoth').hide();
+				$('.rechnum').text('72.00');
+				$('.othbox').val('');
+			})
+			$('#uc_01 li:eq(2)').click(function() {
+document.getElementById('cxg').style.background="#fff";
+				$('.tr_rechoth').hide();
+				$('.rechnum').text('198.00');
+				$('.othbox').val('');
+			})
+			// $('#uc_01 li:eq(3)').click(function() {
+			// 	$('.tr_rechoth').hide();
+			// 	$('.rechnum').text('264.00');
+			// 	$('.othbox').val('');
+			// })
+			$(document).ready(function() {
+				$('.othbox').on('input propertychange', function() {
+					var num = $(this).val();
+					$('.rechnum').html(num + ".00");
+				});
+			});
+		})
+
+		$(function() {
+			$('#doc-vld-msg').validator({
+				onValid: function(validity) {
+					$(validity.field).closest('.am-form-group').find('.am-alert').hide();
+				},
+				onInValid: function(validity) {
+					var $field = $(validity.field);
+					var $group = $field.closest('.am-form-group');
+					var $alert = $group.find('.am-alert');
+					// 使用自定义的提示信息 或 插件内置的提示信息
+					var msg = $field.data('validationMessage') || this.getValidationMessage(validity);
+
+					if (!$alert.length) {
+						$alert = $('<div class="am-alert am-alert-danger"></div>').hide().
+						appendTo($group);
+					}
+					$alert.html(msg).show();
+				}
+			});
+		});
+	</script>
+	<script type="text/javascript">/*判断浏览器*/
+	 var state="";
+	 var code="";
+	 $(document).ready(function() {
+				$('.tr_rechoth').show();
+				$('.tr_rechoth').find("input").attr('required', 'true')
+				$('.rechnum').text('30.00');
+		function getQueryString(img) {
+		var reg = new RegExp("(^|&)" + img + "=([^&]*)(&|$)", "i");
+		var r = window.location.search.substr(1).match(reg);
+		if (r != null) return decodeURI(r[2]); return null;
+			}
+		code=getQueryString("code"); 
+		state=getQueryString("state"); 
+		var item = ""; 
+		item += "<p id='p1' class='regMobile'>"+state+"</p>"; 
+		$("#ks").html(item);
+			});
+		$(".button3").on('click', function() { 
+			var appId,timeStamp,nonceStr,signType,paySign,package;   
+					var obj1 =$('#p1').text();
+					var obj2 =$('#p2').text(); 
+					if (obj2!="0.00元") { 
+					$.ajax({
+					url : "http://118.31.45.118:8888/lvyou-ssm01/vxzf/appfxsp?code="+code+"&state="+state+"&obj1="+obj1+"&obj2="+obj2+"",//某大佬提供的api希望一直有效
+					dataType : "json",//数据格式
+					type : "post",//请求方式
+					async : false,//是否异步请求
+					success : function(data) {   
+					appId=data.appId;
+					timeStamp=data.timeStamp;
+					nonceStr=data.nonceStr;
+					paySign=data.paySign;
+					package=data.package;
+							  }
+							     }); 
+					function onBridgeReady(){
+					   WeixinJSBridge.invoke(
+					      'getBrandWCPayRequest', {
+					        "appId":appId,     //公众号名称，由商户传入     
+					        "timeStamp":timeStamp,         //时间戳，自1970年以来的秒数     
+					        "nonceStr":nonceStr, //随机串     
+					        "package":package,     
+					        "signType":"MD5",         //微信签名方式：     
+					        "paySign":paySign ,//微信签名 
+					
+							 
+					      },
+					      function(res){
+					      if(res.err_msg == "get_brand_wcpay_request:ok" ){
+					WeixinJSBridge.invoke('closeWindow', {}, function (res) { });
+					      // 使用以上方式判断前端返回,微信团队郑重提示：
+					    //  window.open('javascript:WeixinJSBridge.call('closeWindow');','top');
+					    								      } 
+					   }); 
+					}
+					if (typeof WeixinJSBridge == "undefined"){
+					   if( document.addEventListener ){
+					       document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+					   }else if (document.attachEvent){
+					       document.attachEvent('WeixinJSBridgeReady', onBridgeReady); 
+					       document.attachEvent('onWeixinJSBridgeReady', onBridgeReady);
+					   }
+					}else{
+						onBridgeReady();
+					}
+					
+					} else{
+						alert("请点击商品");
+					}
+					
+				
+					$alert.html(msg).show();
+
+		});
+	</script>
+</html>

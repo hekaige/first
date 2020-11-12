@@ -1,0 +1,238 @@
+* {
+    padding:0;
+    margin:0;
+}
+body {
+    background: url(../images/musicbg.png);
+    background-size: 100% ;
+	background-repeat: no-repeat ;
+	overflow-x: hidden;
+	width: auto;
+	height: auto;
+}
+#mcbox{
+	position:relative;
+	width: 100px;
+	height: auto;
+}
+.mcbt{
+	position:absolute;
+	width: 11vw;
+	height: 12vw;
+	float: left;
+	margin-left: 100%;
+	margin-top: -210%;
+	
+	background:url(../images/pause.png) no-repeat center bottom;
+	background-size:cover;
+}
+.start{
+	margin-top: 20%;
+	width: 5vw;
+	height: 5vw;
+}
+.p{
+	font-size: 10px;
+}
+.mc{
+	margin-left: 35%;
+	margin-top: 10%; 
+}
+.mcjindutiao{
+	
+}
+#mcbg{  
+    background: url(https://leadjoy2019.oss-cn-hangzhou.aliyuncs.com/appimg/mcdyylyzeg307x307.png) center no-repeat; 
+    width:300px;  
+    height: 300px;
+	margin-top: 10%; 
+	border-radius:50%;
+
+	animation:my-rotate 5s linear infinite;
+}  
+
+.pause{
+	animation-play-state:paused;
+}
+@keyframes my-rotate{
+	0% { transform: rotate(0) }
+ 	25%{transform:rotate(90deg)}
+ 	50%{transform:rotate(180deg)}
+ 	75%{transform:rotate(270deg)}
+ 	100% {transform: rotate(360deg)}
+}
+
+		
+.button1{
+	text-align: center;
+	margin-top: 7.5vw;
+	
+}
+.box{
+	margin-top: 13vw;
+	width: 100%;
+	align-items: center;
+}
+.mcall{
+	float: left;
+	margin-left: 9%;
+}
+
+.mc1{
+	width: 100%;
+	height: auto;
+	margin-top: 12%;
+}
+#mc1_1{	
+	background: url(https://leadjoy2019.oss-cn-hangzhou.aliyuncs.com/appimg/klsw307x307.png) center;
+	width: 35vw;
+	height: 18vw;
+	margin-left: 10%;
+	border-radius:25px;	
+	text-align: center;
+	background-size:100%;
+}
+.name1_1{
+    width: 35vw;
+    height: 18vw;
+    margin-left: 10%;
+    border-radius:25px;	
+	text-align: center;
+}
+#mc1_2{
+	background: url(https://leadjoy2019.oss-cn-hangzhou.aliyuncs.com/appimg/etqwbk1307x307.png) center;
+	width: 35vw;
+	height: 18vw;
+	margin-left: 10%;
+	border-radius:25px;
+	float: right;
+	text-align: center;
+	background-size:100%;
+}
+.name1_2{
+	width: 35vw;
+	height: 18vw;
+	border-radius:25px;	
+	text-align: center;
+}
+
+
+.mc2{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: -130px;
+}
+#mc2_1{	
+	background: url(https://leadjoy2019.oss-cn-hangzhou.aliyuncs.com/appimg/gunboot-kids307x307.png) center;
+	width: 35vw;
+	height: 18vw;
+	margin-left: 10%;
+	border-radius:25px;	
+	text-align: center;
+	background-size:100%;
+}
+.name2_1{
+    width: 35vw;
+    height: 18vw;
+    margin-left: 10%;
+    border-radius:25px;	
+	text-align: center;
+}
+#mc2_2{
+	background: url(https://leadjoy2019.oss-cn-hangzhou.aliyuncs.com/appimg/Bedtime-Story307x307.png) center;
+	width: 35vw;
+	height: 18vw;
+	margin-left: 10%;
+	border-radius:25px;
+	float: right;
+	text-align: center;
+	background-size:100%;
+}
+.name2_2{
+	width: 35vw;
+	height: 18vw;
+	border-radius:25px;	
+	text-align: center;
+}
+
+
+.mc3{
+	top: 120vw;
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: -130px;
+	
+}
+#mc3_1{	
+	background: url(https://leadjoy2019.oss-cn-hangzhou.aliyuncs.com/appimg/mcdyylyzeg307x307.png) center;
+	width: 35vw;
+	height: 18vw;
+	margin-left: 10%;
+	border-radius:25px;	
+	text-align: center;
+	background-size:100%;
+}
+.name3_1{
+    width: 35vw;
+    height: 18vw;
+    margin-left: 10%;
+    border-radius:25px;	
+	text-align: center;
+}
+#mc3_2{
+	background: url(https://leadjoy2019.oss-cn-hangzhou.aliyuncs.com/appimg/Fun-Kids-Monsters307x307.png) center;
+	width: 35vw;
+	height: 18vw;
+	margin-left: 10%;
+	border-radius:25px;
+	float: right;
+	text-align: center;
+	background-size:100%;
+}
+.name3_2{
+	width: 35vw;
+	height: 18vw;
+	border-radius:25px;	
+	text-align: center;
+}
+
+.footer{
+	height: 100vw;
+}
+.loader-container {
+    height: 100%;
+    /*进度条长度*/
+    width: 0;
+    background: -webkit-linear-gradient(left,#f8dc4b,#d95a3d);
+    background: -moz-linear-gradient(left,#f8dc4b,#d95a3d);
+    background: -o-linear-gradient(left,#f8dc4b,#d95a3d);
+    background: -ms-linear-gradient(left,#f8dc4b,#d95a3d);
+    background: linear-gradient(left,#f8dc4b,#d95a3d);
+    border-radius:7px;
+    box-shadow: inset 0 -2px 2px rgba(0, 0, 0, 0.2);
+    animation: loader 1s linear;
+}
+.progress{
+    width: 48%;
+    height: 7px;
+    border-radius:7px;
+    margin-left: 0%;
+    margin-top: 5%;
+    background: -webkit-linear-gradient(left,#e4e3e4,#e4e5e4);
+    background: -moz-linear-gradient(left,#e4e3e4,#e4e5e4);
+    background: -o-linear-gradient(left,#e4e3e4,#e4e5e4);
+    background: -ms-linear-gradient(left,#e4e3e4,#e4e5e4);
+    background: linear-gradient(left,#e4e3e4,#e4e5e4);
+}
+
+.controls span{
+	color: #00000; 
+	font-size: 15px; 
+	display: inline-block; 
+	width: 34px;
+}
+.audio-time{
+	margin-left: 75%;
+}

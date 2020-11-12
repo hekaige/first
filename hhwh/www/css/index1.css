@@ -1,0 +1,86 @@
+* {
+    padding:0;
+    margin:0;
+}
+body {
+    background: url(../images/bg1.png);
+    background-size: 100% ;
+	background-repeat: no-repeat ;
+	overflow-x: hidden;
+	width: auto;
+	height: auto;
+}
+.p{
+	font-size: 10px;
+}
+.vd {
+	height:53vw;
+	border-radius:25px;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.button1{
+	text-align: center;
+	margin-top: -10px;
+}
+.box{
+	width: 100%;
+	align-items: center;
+}
+.vd1{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-top: 12%;
+	overflow: auto;
+}
+.vd1_1{	
+	margin-left: 10%;
+	border-radius:25px;
+	float: left;	
+}
+.vd1_2{
+	margin-left: 9%;
+	border-radius:25px;
+	float: left;
+}
+.vd2{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-top: 1%;
+	overflow: auto;
+}
+.vd2_1{	
+	margin-left: 10%;
+	border-radius:25px;
+	float: left;	
+}
+.vd2_2{
+	margin-left: 9%;
+	border-radius:25px;
+	float: left;
+}
+.vd3{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin-top: 1%;
+	overflow: auto;
+}
+.vd3_1{	
+	margin-left: 10%;
+	border-radius:25px;
+	float: left;	
+}
+.vd3_2{
+	margin-left: 9%;
+	border-radius:25px;
+	float: left;
+}
+.footer{
+	height: 350px;
+}
